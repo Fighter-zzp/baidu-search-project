@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzp.imitate.baidu.mapper.NewsMapper">
+  <resultMap id="BaseResultMap" type="com.zzp.imitate.baidu.domain.News">
+    <!--@mbg.generated generated on Tue Jun 02 18:01:15 CST 2020.-->
+    <!--@Table news-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+    <result column="tags" jdbcType="VARCHAR" property="tags" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Jun 02 18:01:15 CST 2020.-->
+    id, title, url, content, tags
+  </sql>
+</mapper>
