@@ -2,7 +2,7 @@
 > 版本1 工具：mysql redis SpringBoot vue ElementUI，简单实现百度搜索页面展示
 > 之后版本可能会使用es 进行改进
 ### 前端展示
-![img](imgs\1.png)
+![img](./imgs/1.png)
 
 ### 登录
 ![img](imgs\2.png)
